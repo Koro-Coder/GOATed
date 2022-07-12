@@ -10,10 +10,10 @@
 .product-card {
     padding: 1rem;
     min-width: 300px;
-    height: 500px;
+    height: 70vh;
     display: flex;
     flex-direction: column;
-    background: rgb(224, 245, 235);
+    background: rgb(246, 253, 252);
     border-radius: 1rem;
     box-shadow: -.5rem 0 .5rem gray;
     transition: .5s;

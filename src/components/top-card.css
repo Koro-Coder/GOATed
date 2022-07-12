@@ -32,6 +32,5 @@ button{
 }
 
 button:hover{
-    box-shadow: 0 0 2rem rgb(167, 167, 223);
     font-size: 1.7rem;
 }
