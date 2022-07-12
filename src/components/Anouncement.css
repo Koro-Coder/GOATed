@@ -1,0 +1,13 @@
+.announcement{
+    max-width: 100vw;
+    background-color: cyan;
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.announcement:hover{
+    font-size: 1.2rem;
+}
