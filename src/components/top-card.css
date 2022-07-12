@@ -22,3 +22,16 @@ img{
 .top-desc{
     flex: 1fr;
 }
+
+button{
+    margin-top: 30px;
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+button:hover{
+    box-shadow: 0 0 2rem rgb(167, 167, 223);
+    font-size: 1.7rem;
+}

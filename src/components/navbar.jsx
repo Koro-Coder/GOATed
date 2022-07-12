@@ -10,7 +10,7 @@ function Navbar() {
         <div className='left'>
             <div className='language'>En</div>
             <div className='search-bar'>
-                <input placeholder='Item'></input>
+                <input placeholder='Your First Wish'></input>
                 <SearchIcon cursor='pointer'/>
             </div>
         </div>

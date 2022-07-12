@@ -22,7 +22,7 @@ export default function Slider() {
         <div className='arrow left-arrow' onClick={decreament}>
             <KeyboardDoubleArrowLeftOutlinedIcon/>
         </div>
-        <div className='top-list' style={{transform:`translateX(${-ind*100}vw)`}}>
+        <div className='top-list' style={{transform:`translateX(${-ind*110}vw)`}}>
             {cardList}
         </div>
 

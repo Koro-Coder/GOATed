@@ -1,0 +1,35 @@
+.product-card-List {
+    margin: 5vh 0;
+    height: 50 vh;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.product-card {
+    padding: 1rem;
+    min-width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(224, 245, 235);
+    border-radius: 1rem;
+    box-shadow: -.5rem 0 .5rem gray;
+    transition: .5s;
+}
+
+.product-img{
+    height: 60%;
+}
+
+.product-card:hover {
+    transform: translateY(-1rem);
+}
+
+.product-card:hover~.product-card {
+    transform: translateX(6rem);
+}
+.product-card:not(:first-child) {
+    margin: -2rem;
+}
