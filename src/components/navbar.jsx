@@ -28,7 +28,7 @@ function Navbar() {
                 Sign In
             </div>
             <div className='menu-item'>
-                <Badge badgeContent={4} color="primary">
+                <Badge badgeContent={4} color="primary" className='cart-icon'>
                     <ShoppingCartOutlinedIcon />
                 </Badge>
             </div>

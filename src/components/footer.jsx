@@ -76,9 +76,6 @@ const ContactItem = styled.div`
   align-items: center;
 `;
 
-const Payment = styled.img`
-    width: 50%;
-`;
 
 const Footer = () => {
   return (
@@ -86,9 +83,9 @@ const Footer = () => {
       <Left>
         <Logo>LAMA.</Logo>
         <Desc>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don’t look even slightly believable.
+          Sometimes, we just have to write something that does not make any sense. But it
+          is all to fill this blank space, and make this website look a bit cooler. There is
+          no need to read this just carry on with whatever you were doing earlier.
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
@@ -123,13 +120,13 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+          <Room style={{marginRight:"10px"}}/> Chai ki Tapri, Infront of Delhi Technological University
         </ContactItem>
         <ContactItem>
           <Phone style={{marginRight:"10px"}}/> +1 234 56 78
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+          <MailOutline style={{marginRight:"10px"}} /> contact@ AbhishekAggarwal2801@gmail.com
         </ContactItem>
       </Right>
     </Container>
