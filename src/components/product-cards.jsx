@@ -1,5 +1,4 @@
 import React from "react";
-import './product-cards.css'
 
 export default function ProductCards(props){
     return(
